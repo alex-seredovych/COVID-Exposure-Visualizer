@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="COVID Exposure Visualizer.jnlp">
+  <information>
+    <title>COVID Exposure Visualizer</title>
+    <vendor>Blake Bleem</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="COVID_Exposure_Visualizer.jar" size="31083" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="COVID Exposure Visualizer" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="finalproject.FinalProject"  name="COVID Exposure Visualizer" />
+  <update check="always"/>
+</jnlp>
